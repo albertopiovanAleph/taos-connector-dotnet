@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5;net6;net7;net8;net9;netstandard2.0;netstandard2.1;net45;net451;</TargetFrameworks>
+    <TargetFrameworks>net5;net6;net7;net8;net10.0;netstandard2.0;netstandard2.1;net45;net451;</TargetFrameworks>
     <PackageId>TDengine.Connector</PackageId>
     <PackageIcon>image\logo.jpg</PackageIcon>
     <PackageReadmeFile>docs\README.md</PackageReadmeFile>
@@ -27,7 +27,7 @@
     <None Include="../README.md" Pack="True" PackagePath="docs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
   </ItemGroup>
 
 </Project>
